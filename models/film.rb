@@ -7,7 +7,7 @@ class Film
 attr_accessor :title, :director_name
 attr_reader :id
 
-def initialized(options)
+def initialize(options)
   @id = options['id'].to_i
   @title = options['title']
   @director_name = options['director_name']
@@ -51,7 +51,7 @@ def self.all()
 end
 
 
-def self.delete.all()
+def self.delete_all()
   sql = "DELETE FROM films"
   SqlRunner.run(sql)
 end

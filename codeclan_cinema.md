@@ -6,10 +6,16 @@ Films
 
 title
 director_name
+
+
+
 Tickets
 
 film_id
 customer_name
+
+
+
 Your app should be able to:
 Create films and tickets
 CRUD actions (create, read, update, delete) films and tickets
